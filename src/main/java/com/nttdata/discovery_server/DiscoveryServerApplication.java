@@ -17,13 +17,13 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @SpringBootApplication
 public class DiscoveryServerApplication {
 
-	/**
-	 * Punto de entrada de la aplicación Spring Boot.
-	 *
-	 * @param args argumentos de línea de comandos proporcionados al arrancar
-	 */
-	public static void main(String[] args) {
-		SpringApplication.run(DiscoveryServerApplication.class, args);
-	}
+    /**
+     * Punto de entrada de la aplicación Spring Boot.
+     *
+     * @param args argumentos de línea de comandos proporcionados al arrancar
+     */
+    public static void main(String[] args) {
+        SpringApplication.run(DiscoveryServerApplication.class, args);
+    }
 
 }
